@@ -1,0 +1,16 @@
+---
+layout: example.html
+title: Geocoding Search
+shortdesc: A custom search control using the Nominatim geocoder.
+docs: >
+  This example shows a custom search control that uses the
+  <a href="https://nominatim.org/release-docs/develop/api/Search/">Nominatim</a> geocoding service of
+  OpenStreetMap. Click the magnifying glass, type a place name and press Enter. A single result is shown
+  directly, multiple results are listed to choose from with the arrow keys and Enter, or with the mouse.
+  The chosen place is marked with a point and a popup with the address. Closing the popup or clearing the
+  search field removes the marker again. Note that the Nominatim
+  <a href="https://operations.osmfoundation.org/policies/nominatim/">usage policy</a> does not allow
+  auto-complete, so a request is only sent when Enter is pressed.
+tags: "geocoding, search, nominatim, control, popup, overlay"
+---
+<div id="map" class="map"></div>
