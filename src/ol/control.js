@@ -9,6 +9,7 @@ export {default as MousePosition} from './control/MousePosition.js';
 export {default as OverviewMap} from './control/OverviewMap.js';
 export {default as Rotate} from './control/Rotate.js';
 export {default as ScaleLine} from './control/ScaleLine.js';
+export {default as Toolbar} from './control/Toolbar.js';
 export {default as Zoom} from './control/Zoom.js';
 export {default as ZoomSlider} from './control/ZoomSlider.js';
 export {default as ZoomToExtent} from './control/ZoomToExtent.js';

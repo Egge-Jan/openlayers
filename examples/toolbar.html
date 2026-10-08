@@ -1,0 +1,17 @@
+---
+layout: example.html
+title: Toolbar Control
+shortdesc: Group controls in toolbars.
+docs: >
+  This example uses the <code>ol/control/Toolbar</code> control to group other controls. The default zoom
+  and rotate controls are left out of the map and added to toolbars instead: a vertical toolbar in the
+  upper left corner holds the zoom controls, a horizontal toolbar in the upper right corner holds the
+  rotate and full screen controls. A third, horizontal toolbar at the bottom holds custom controls to fly
+  to a few places. Use the <code>position</code> and <code>orientation</code> options to place a toolbar,
+  and <code>addControl</code> to add controls to it. A fourth, external, vertical toolbar, below the map,
+  shows that a toolbar can also be placed outside the map, with the <code>target</code> option. It then
+  becomes part of the page layout, without any additional CSS.
+tags: "toolbar, control, custom, zoom, rotate, fullscreen"
+---
+<div id="map" class="map"></div>
+<div id="external-toolbar"></div>

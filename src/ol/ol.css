@@ -352,3 +352,70 @@
 .ol-overviewmap .ol-viewport:hover {
   cursor: pointer;
 }
+
+.ol-toolbar {
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  align-items: flex-start;
+  gap: .4em;
+  background: transparent;
+}
+
+.ol-toolbar--vertical {
+  flex-direction: column;
+}
+
+.ol-toolbar--horizontal {
+  flex-direction: row;
+}
+
+.ol-toolbar--top-left {
+  top: .5em;
+  left: .5em;
+}
+
+.ol-toolbar--top-center {
+  top: .5em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ol-toolbar--top-right {
+  top: .5em;
+  right: .5em;
+}
+
+.ol-toolbar--bottom-left {
+  bottom: 3em;
+  left: .5em;
+}
+
+.ol-toolbar--bottom-center {
+  bottom: 3em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ol-toolbar--bottom-right {
+  bottom: 3em;
+  right: .5em;
+}
+
+.ol-toolbar--horizontal.ol-toolbar--bottom-left,
+.ol-toolbar--horizontal.ol-toolbar--bottom-center,
+.ol-toolbar--horizontal.ol-toolbar--bottom-right {
+  align-items: flex-end;
+}
+
+.ol-toolbar--external {
+  position: static;
+}
+
+.ol-toolbar > .ol-control {
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+  bottom: auto;
+}
